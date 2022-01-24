@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 710px;
+  width: 100%;
+  background-image: linear-gradient(rgb(230, 173, 216), rgb(177, 75, 90), rgba(87, 196, 60, 0.445));
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar{
+  height: 70px;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headings{
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: 900;
+  padding-top: 10px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: xx-large;
+  font-weight: 900;
+  margin-left: 80px;
+  text-decoration: underline;
+}
+
+.table{
+  width: 90%;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.student-btn{
+  height: 50px;
+  width: 300px;
+  font-size: x-large;
+  font-weight: 700;
+  position: absolute;
+  top: 100px;
+  left: 76%;
+  background-color: cyan;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px 20px;
+  cursor: pointer;
 }
